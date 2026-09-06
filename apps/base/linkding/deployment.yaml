@@ -23,7 +23,7 @@ spec:
             # - configMapRef:
             #    name: linkding-configmap
             - secretRef:
-                name: linkding-container-env-secret.yaml
+                name: linkding-container-env
           ports:
             - containerPort: 9090
           securityContext:
