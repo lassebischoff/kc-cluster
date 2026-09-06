@@ -20,6 +20,8 @@ spec:
         - name: linkding
           image: sissbruecker/linkding:1.31.0
           envFrom:
+            - configMapRef:
+                name: linkding-configmap
             - secretRef:
                 name: linkding-credentials
           ports:
