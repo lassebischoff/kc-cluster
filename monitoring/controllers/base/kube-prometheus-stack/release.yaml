@@ -31,3 +31,9 @@ spec:
   values:
     grafana:
       adminPassword: lasse
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+        hosts:
+          - grafana.lassebischoff.org
+        path: /
