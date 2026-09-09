@@ -38,6 +38,6 @@ spec:
           - grafana.lassebischoff.org
         path: /
         tls:
-          - secretName: grafana-general-tls
+          - secretName: grafana-tls-secret
             hosts:
               - grafana.lassebischoff.org
