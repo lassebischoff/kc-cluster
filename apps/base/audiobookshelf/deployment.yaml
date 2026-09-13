@@ -23,13 +23,10 @@ spec:
           volumeMounts:
             - name: audiobookshelf-config
               mountPath: /config
-          volumeMounts:
             - name: audiobookshelf-metadata
               mountPath: /metadata
-          volumeMounts:
             - name: audiobookshelf-data-audiobooks
               mountPath: /audiobooks
-          volumeMounts:
             - name: audiobookshelf-data-podcasts
               mountPath: /podcasts
       volumes:
