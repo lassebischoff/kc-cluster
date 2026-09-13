@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: lds.lassebischoff.org
+    - host: ld.lassebischoff.org
       http:
         paths:
           - backend:
